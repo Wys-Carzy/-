@@ -1,0 +1,249 @@
+*{
+			padding:0;
+			margin:0 auto;
+		}
+		/*头部*/
+		header{
+			color: #fff;
+			height: 700px;
+			background-image: url(images/header-bg.png);
+		}
+		.header-title{
+			position: relative;
+			width: 50%;
+			top:15%;
+		}
+		h1{
+			text-align:center;
+			font-size: 45px;
+		}
+		.header-text{
+			position: relative;
+			top:25%;
+			text-align: center;
+		}
+		.sign-up{
+			width: 50%;
+			height:22%;
+			border: 1px solid #888;
+			position: relative;
+			top:35%;
+			text-align:center;
+		}
+		.sign-up p{
+			position: relative;
+			top:15%;
+		}
+		.sign-up form{
+			position: relative;
+			top:35%;
+		}
+		.text{
+			width: 25%;
+			height:30px;
+			background-color: transparent;
+			border: 1px solid #888;
+			margin-right: 4%;
+		}
+		.sign-up p:first-child{
+			font-weight: 600;
+		}
+		.sign-up p:nth-child(2){
+			font-size: 12px;
+			color:#888;
+		}
+		.submit{
+			width: 20%;
+			height:32px;
+			background-color: #fff;
+			color:#000;
+			border: 0;
+		}
+
+		/*主体部分*/
+		/*第一部分*/
+		.body-one-text{
+			margin-top:50px;
+			text-align:center;
+		}
+		.body-one-text p:first-child{
+			font-size:12px;
+		}
+		.body-one-text p:nth-child(2){
+			margin-top:20px;
+			font-size:30px;
+		}
+		.body-one-text p:last-child{
+			font-size:30px;
+		}
+		.body-one{
+			width:80%;
+			display: flex;
+			flex-wrap: wrap;
+			margin-bottom:50px;
+		}
+		.pfont{
+			font-size:20px;
+		}
+		.body-one section div{
+			float:right;
+			margin-left:20px;
+			width:345px;
+		}
+		.body-one section div p:last-child{
+			margin-top:10px;
+		}
+		.body-one section:nth-child(1){
+			margin-top:80px;
+		}
+		.body-one section:nth-child(2){
+			margin-top:80px;
+		}
+		.body-one section:nth-child(3){
+			margin-top:80px;
+		}
+		.body-one section:last-child{
+			margin-top:80px;
+		}
+		/*第二部分*/
+		.two{
+			height:700px;
+			background-image: url(images/前端学院设计图_18.png);
+			background-repeat: no-repeat;
+			background-position:-175px -40px;
+			color:#fff;
+		}
+		.two div{
+			width:37%;
+			position:relative;
+			top:25%;
+			left:15%;
+			margin:0;
+			height:33%;
+		}
+		.two div p{
+			width:340px;
+			height:50%;
+			margin:30px 0;
+		}
+		.two h2{
+			width:240px;
+			margin:0;
+		}
+		.two form{
+			width:435px;
+			position:relative;
+			top:35%;
+			left:15%;
+			margin:0;
+		}
+		.two input{
+			width:200px;
+			height:50px;
+		}
+		.two input:last-child{
+			margin-left:30px;
+		}
+		.white{
+			color:#000;
+			background-color:#fff;
+			border:0;
+		}
+		.transparent{
+			color:#fff;
+			background-color:transparent;
+			border:1px solid #888;
+		}
+		/*第三部分*/
+		.Gray{
+			color: #888;
+		}
+		.line{
+			border-top: 1px solid #888;
+			transform: scale(1,0.5);
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		.three-top{
+			width:80%;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.three-top h2{
+			width:100%;
+			margin:50px 0;
+			text-align: center;
+		}
+		.three-middle-1 img{
+			width: 45%;
+			height: 40%;
+		}
+		.middle{
+			width:70%;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.middle-1 div{
+			width:23%;
+			margin: 0;
+		}
+		.middle-1>img{
+			margin-left: 7%;
+			margin-right: 20%;
+		}
+		.middle-2{
+			margin-top: 60px;
+			flex-direction: row-reverse;
+		}
+		.middle-2 div{
+			width:30%;
+			margin-left: 7%;
+		}
+		.middle-2>img{
+			margin-left: 0;
+			margin-right: 5%;
+		}
+		.bold{
+			font-weight: bold;
+		}
+		.three-middle-2{
+			text-align: center;
+		}
+		.three-middle-2 h2{
+			margin-bottom: 20px;
+		}
+		.teacher{
+			margin-top: 40px;
+		}
+		.teacher::after{
+			content: '';
+			clear: both;
+			display: block;
+		}
+		.teacher div{
+			width: 30%;
+			margin: 0;
+			float: left;
+			margin-left: 20%;
+		}
+		.teacher img{
+			width:100%;
+		}
+		.teacher div:nth-child(2){
+			margin-left: 1%;
+		}
+		.teacher div:nth-child(3){
+			margin-top: 1%;
+		}
+		.teacher div:last-child{
+			margin-top: 1%;
+			margin-left: 1%;
+		}
+		.img-hover{
+			position: absolute;
+			background-color: red;
+		}
+		.img-hover:hover{
+			background-color: #000000;
+		}
+		
